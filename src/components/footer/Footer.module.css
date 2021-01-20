@@ -1,0 +1,16 @@
+.footer{
+    width: 100%;
+    min-height: 10vh;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__copyright{
+    align-self: flex-start;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 200;
+    margin-left: 2rem;
+}

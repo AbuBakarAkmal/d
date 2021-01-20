@@ -1,0 +1,94 @@
+*,*::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* it defines what 1rem is */
+  font-size: 62.5%; /*1 rem = 10px; 10px/16px = 62.5%*/
+}
+@media screen and (max-width:1200px) { /*width < 1200?*/
+  html{font-size: 56.25%; /*1 rem = 9px, 9/16 = 50%*/}
+}
+
+@media screen and (max-width:900px){ /*width < 900?*/
+  html{font-size: 50%; /*1 rem = 8px, 8/16 = 50%*/}
+}
+
+@media screen and (max-width:480px){/*mobile and smaller*/
+  html{font-size: 43.75%; /*1rem = 7, 7/16 = 43.75%*/}
+}
+@media screen and (min-width: 1500px) {
+  html{font-size: 70%; /*1rem = , 11.something/16*/}
+}
+
+:root {
+
+  --color-primary: #f1f1f1;
+
+  --color-secondary:#619FF5;
+  --color-secondary-dark:#458FF6;
+
+  --color-tertiary: #FFABD3;
+
+  --color-gray-dark:#333333;
+  --color-gray-light:#7c7c7c;
+
+  --color-white: #FFFFFF;
+
+  --default-gap: 4rem;
+  --default-gap-sm: 2.5rem;
+  --default-gap-xs: 1rem;
+
+  --default-padding: 2.5rem 0rem; /*top and bottom 25px and left right */
+  --default-margin: 2.5rem 0rem;
+
+  --default-font-size:1.6rem;
+
+  --font-family-heading: 'Mulish', sans-serif;
+
+  --font-family-general: 'Roboto', sans-serif;
+}
+::selection {
+  background-color: var(--color-secondary);
+  color: var(--color-gray-light);
+}
+h1,h2,h3,h4,h5,h6,span{
+  font-family: var(--font-family-heading);
+}
+p,li,ul,a,label{
+  font-family: var(--font-family-general);
+}
+body{
+  font-size: var(--default-font-size);
+  background-color: var(--color-primary);
+}
+.container{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto auto;
+  position: relative;
+}
+
+.heading{
+  color: var(--color-gray-dark);
+  font-family: var(--font-family-heading);
+  font-size: 2.8rem;
+}
+.heading--secondary{
+  color: var(--color-gray-dark);
+  font-family: var(--font-family-heading);
+  font-size: 2.3rem;
+  font-weight: 500;  
+}
+.heading--tertiary{
+  color: var(--color-gray-dark);
+  font-family: var(--font-family-heading);
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.text{
+  text-align: left;
+  color: var(--color-gray-dark);
+  font-size: var(--default-font-size);  
+}    

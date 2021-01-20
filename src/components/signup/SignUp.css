@@ -1,0 +1,62 @@
+.register-page{
+    background-image: url('../../assets/bg-md.jpg');
+    min-height:100vh;
+    /* min-width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+      /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.register-box{
+    background-color: #ffffff;
+    min-height: 35rem;
+    width: 50rem;
+    padding:2.5rem;
+    border-radius: .5rem;
+    position: relative;
+    padding-bottom: 6.5rem;
+}
+.register-page__logo,.register-page__heading{
+    margin-top:2rem !important;
+    margin-bottom:2rem !important;
+}
+.register-page__heading{
+    margin-bottom: .5rem !important;
+}
+.register-page__input-box{
+    border: 1px solid transparent;
+    width: min-content;
+    margin: auto auto;
+}
+.register-page__btn{
+    padding: 1rem 3rem;
+    font-size: 2rem !important;
+    letter-spacing:1.2px;
+    position: absolute;
+    right: 2.5rem;
+}
+.register-page__signup-btn-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom:1rem
+}
+.register-page__btn:disabled{
+    background-color: lightgray;
+    color: #333333;
+    pointer-events:none;
+}
+.register-page__btn:disabled:hover{
+    background-color: lightgray;
+    color: #333333;
+    /* pointer-events:none; */
+}
+
+

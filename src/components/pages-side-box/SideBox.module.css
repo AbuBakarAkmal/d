@@ -1,0 +1,32 @@
+.sideBox{
+    max-width: 32rem;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sideBox *:not(:last-child){
+    margin-bottom: 1.5rem;
+}
+.sideBox p,.sideBox h3{
+    justify-self: flex-start;
+    align-self: flex-start;
+}
+.sideBox__heading{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sideBox p{
+    color: var(--color-gray-dark);
+    line-height: 1.4;
+    font-size: var(--default-font-size);
+}
+.sidebox_image{
+    height: 15rem;
+    width: 100%;
+    background-size: cover;
+    margin-top: 2rem;
+}
+.array-body__sidebox{
+    line-height: 1.3;
+}

@@ -1,0 +1,27 @@
+const checkInTimeList = () => [
+    { name: "7am", value: "7am" },
+    { name: "8am", value: "8am" },
+    { name: "9am", value: "9am" },
+    { name: "10am", value: "10am" },
+    { name: "11am", value: "11am" },
+    { name: "12am", value: "12am" },
+    { name: "1pm", value: "1pm" },
+    { name: "2pm", value: "2pm" },
+    { name: "3pm", value: "4pmm" },
+    { name: "5pm", value: "5pm" },
+    { name: "6pm", value: "6pm" },
+    { name: "7pm", value: "7pmm" },
+    { name: "8pm", value: "8pm" },
+    { name: "9pm", value: "9pm" },
+    { name: "10pm", value: "10pm" },
+    { name: "11pm", value: "11pm" },
+    { name: "12pm", value: "12pm" },
+    { name: "1am", value: "1am" },
+    { name: "2am", value: "2am" },
+    { name: "3am", value: "3am" },
+    { name: "4am", value: "4am" },
+    { name: "5am", value: "5am" },
+    { name: "6am", value: "6am" },
+]
+
+export default checkInTimeList

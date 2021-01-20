@@ -1,0 +1,73 @@
+.page1 {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.page1__main {
+    flex: .5;
+    /* border: 1px solid black; */
+    height: 70vh;
+    position: relative;
+    margin-top: 10vh;
+}
+
+.page1__header {
+    font-weight: 400;
+}
+
+.page1__text {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+
+.page1__heading {
+    width: 100%;
+}
+
+.page1__contact-link {
+    color: var(--color-secondary-dark);
+    cursor: pointer;
+}
+
+.page1__body {
+    position: absolute;
+    top: 43%;
+    left: 0%;
+    transform: translate(0, -50%);
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.page1__step {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--color-secondary-dark);
+}
+
+.page1__btn {
+    /* margin-left: .5rem !important; */
+}
+
+.page1__input-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 1rem 2rem;
+    padding: 2rem 0rem;
+    /* border: 1px solid black; */
+}
+
+.page1__input-box input {
+    grid-column: 1/-1;
+}
+
+.page1__input-box * {
+    margin-bottom: 1rem !important;
+    /* border: 1px solid black !important; */
+}
+
+.page1__svg {
+    flex: .5;
+    height: 80vh;
+}

@@ -1,0 +1,18 @@
+.rules {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+}
+
+.rules__name {
+    width: 250px;
+    text-align: left;
+    font-size: 2rem;
+    /* border: 1px solid black; */
+}
+
+.rules  .MuiSvgIcon-root{
+    font-size: 25px !important;
+}

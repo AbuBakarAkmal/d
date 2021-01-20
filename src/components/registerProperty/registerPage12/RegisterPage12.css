@@ -1,0 +1,52 @@
+.register__page12{
+    margin-top: 4rem;
+    width:100%;
+    min-height:60vh;
+    /* border:1px solid black; */
+    
+}
+.register__page12-boxes{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content:space-between;
+}
+.register__page12-box{
+    width:28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    border:1px solid rgb(84, 189, 238);
+    /* justify-content:space-around; */
+}
+.register__page12-box img{
+    width:12rem;
+    /* border:1px solid black; */
+    margin-bottom:3rem;
+    /* height:50%; */
+}
+.register__page12-box-3 img{
+    margin-top:1rem;
+    width:20rem;
+}
+.register__page12-box h4{
+    margin-bottom: 3rem;
+    font-size:2.1rem;
+}
+.register__page12-box  p{
+    color: var(--color-gray-light);
+    line-height: 1.4;
+    text-align:left;
+}
+.register__page12-bottom{
+    display: flex;
+    align-items: center;
+}
+.register__page12-bottom p{
+    margin-left: 1rem;
+}
+.register__page12-bottom .MuiSvgIcon-root{
+    color:rgb(43, 181, 245) !important;
+    font-size: 2rem !important;
+}

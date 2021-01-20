@@ -1,0 +1,13 @@
+.requirement{
+    display: flex;
+    align-items: center;
+}
+.requirement__icon{
+    color: rgb(32, 151, 32);
+    font-size: 2.4rem !important;
+    font-weight: 400;
+    margin-right: .5rem;
+}
+.requirement:not(:last-of-type){
+    margin-bottom: 1rem;
+}

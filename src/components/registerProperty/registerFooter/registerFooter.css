@@ -1,0 +1,16 @@
+.pages__hr{
+    margin-top: 4rem;
+}
+.pages__next-back{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.pages__btn-back{
+    display: flex;
+    align-items: center;
+}
+.pages__next-back div button{
+    font-size: 2rem;
+}

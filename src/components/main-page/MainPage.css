@@ -1,0 +1,102 @@
+.main-page-box{
+    background-image: url('../../assets/bg-md.jpg');
+    min-height:100vh;
+    /* min-width: 100%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-page__navbar-box{
+    
+    width: 100%;
+    background-color: rgba(243, 243, 243, 0.842);
+}
+.main-page__navbar{
+    display: flex;
+    align-items: center;
+    min-height: 9vh;
+    
+}
+.main-page__logo{
+
+}
+.main-page__list{
+    list-style: none;
+    margin-left: auto;
+
+    display: flex;
+}
+.main-page__list-item{
+    margin-left: 2rem;
+}
+.main-page__list-item a{
+    text-decoration: none;
+    padding:1rem 3rem;
+    background-color: var(--color-primary);
+    color:var(--color-gray-dark);
+    border-radius: 3px;
+    transition: all .2s ease-in-out;
+}
+.main-page__list-item a:hover{
+    background-color: var(--color-secondary);
+    color:var(--color-primary);
+}
+.main-page__content-box{
+    position: relative;
+}
+.main-page__content{
+    margin-top: 25vh;
+    max-width: 50rem;
+}
+.main-page__content h1{
+    color: var(--color-primary);
+    font-size:4rem;
+    line-height:1;
+    margin-bottom: 2rem;
+}
+.main-page__content p{
+    color: var(--color-primary);
+    line-height:1.5;
+    font-size:2rem;
+    font-weight:300;
+}
+.main-page__footer-box{
+    height: 13vh;
+    width:100%;
+    background-color: var(--color-primary);
+    position:absolute;
+    bottom:0;
+    left: 0;
+}
+.main-page__footer{
+    display: flex;
+    align-items: center;
+    height:100%;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto auto;
+}
+.main-page__footer-heading{
+    font-weight:600;
+}
+.main-page__footer-para{
+    margin-top: 1rem;
+    width:40rem;
+}
+.main-page__footer-btn{
+    transition: all .2s ease-in-out;
+    margin-left: auto;
+    padding:1rem 3rem;
+    background-color: var(--color-secondary);
+    color:var(--color-primary);
+    border-radius: 3px;
+    font-size:2rem;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+.main-page__footer-btn:hover{
+    background-color: var(--color-primary);
+    color:var(--color-gray-dark);
+}

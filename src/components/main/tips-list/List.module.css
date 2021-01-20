@@ -1,0 +1,14 @@
+.list__box{
+    display: flex;
+    align-items: center;
+    width: 96%;
+    margin: auto auto;
+}
+.list__box span{
+    margin-right: .5rem;
+    font-size: 1.3rem;
+}
+.list__box p{
+    font-size: 1.3rem;
+    line-height: .5;
+}

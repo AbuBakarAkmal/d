@@ -1,0 +1,305 @@
+.register__pages {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    min-height: 100vh;
+}
+
+.register__pages-right-box {
+    background-color: #DEF0FF;
+    border-radius: 50%;
+    height: 150%;
+    width: 75%;
+    position: absolute;
+    top: -15%;
+    right: -25%;
+    z-index: -100;
+}
+
+.pages__text {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    font-size: 1.8rem;
+    width: 50%;
+    line-height: 1.2;
+}
+
+.pages__text-light {
+    width: 45%;
+    line-height: 1.3;
+    color: var(--color-gray-light)
+}
+
+.pages__facility-box {
+    /* border: 1px solid black; */
+    /* width: min-content; */
+}
+
+.register-pages__side-box {
+    position: absolute;
+    right: 10%;
+    top: 8vh;
+}
+
+.btn__add-requirement {
+    width: max-content;
+    color: var(--color-secondary-dark);
+    /* padding    :1rem 2rem; */
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding-bottom: 0;
+    ;
+    border-bottom: 1px solid var(--color-secondary-dark);
+}
+
+.register__set-rules-box {
+    display: flex;
+}
+
+.input__add-rules {
+    margin-top: 3rem;
+    outline: none;
+    padding: 8px;
+    font-size: 1.7rem;
+    width: 28rem;
+    border: 1px solid lightgray;
+}
+
+.btn__add-rules {
+    margin-top: 3rem;
+    outline: none;
+    padding: 8px;
+    font-size: 1.7rem;
+    margin-left: -2px;
+    background-color: transparent;
+    /* box-shadow   : none; */
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.register__page13-text {
+    margin-top: 2rem;
+    width: 70%;
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+.register__page13-checkbox {
+    margin-top: 5rem;
+}
+
+.register__page13-checkbox .MuiFormControlLabel-label {
+    font-size: 1.6rem !important;
+}
+
+.register__page13-checkbox .MuiSvgIcon-root {
+    margin-top: -.3rem;
+    font-size: 2.4rem !important;
+}
+
+.register__page14-radio-box {
+    margin-top: 2rem;
+}
+
+.register__page14-radio .MuiSvgIcon-root {
+    font-size: 2.4rem !important;
+}
+
+.MuiFormControlLabel-label {
+    font-size: 1.7rem !important;
+}
+
+.register__page14-select-box {
+    display: flex;
+    align-items: center;
+}
+
+.register__page15-heading {
+    margin: 2rem;
+    margin-left: 0;
+}
+
+.register__page15-text {
+    font-size: 1.8rem;
+    margin-bottom: .2rem;
+}
+
+.register__page15-input {
+    border: none;
+    border: 1px solid lightgrey;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: .4rem;
+    font-size: 1.7rem;
+    outline: none;
+    width: fit-content;
+    border:none;
+    box-shadow:  1px 1px 1px #f2f2f2, 
+    -2px -1px 3px #ffffff;
+    background-color: #ffffff !important;
+}
+
+.register__page16-input-box {
+    margin-bottom: 4rem;
+}
+
+.register__page16-input-box input {
+    /* border: 1px solid lightgrey; */
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: .4rem;
+    font-size: 1.7rem;
+    outline: none;
+    max-width: 14rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    border:none;
+    box-shadow:  1px 1px 1px #f2f2f2, 
+    -2px -1px 3px #ffffff;
+    background-color: #ffffff !important;
+}
+
+.register__page17-radio {
+    margin-bottom: 3rem;
+}
+
+.register__page17-input-box {
+    /* border: 1px solid black; */
+    width: max-content;
+    margin-left: -1.8rem;
+}
+
+.register__page14-radio .MuiFormControlLabel-label p {
+    font-size: 1.8rem;
+}
+
+.register__page14-radio .MuiFormControlLabel-label h4 {
+    font-size: 2.4rem;
+}
+
+.register__page14-radio .MuiFormControlLabel-label p, .register__page14-radio .MuiFormControlLabel-label h4 {
+    margin-right: 2rem;
+    margin-left: 0 !important;
+}
+
+.register__page18-h4 {
+    margin-bottom: 1.5rem;
+}
+
+.register__page18-input-box {
+    margin-bottom: 3rem;
+}
+
+.register__page18-input-box input {
+    border: 1px solid lightgrey;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: .4rem;
+    font-size: 1.7rem;
+    outline: none;
+    margin-bottom: 2rem;
+    min-width: 30rem;
+}
+
+.register__last-page {
+    /* border: 1px solid black; */
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    /* padding-top: 3rem; */
+}
+
+.last-page__heading {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.register__last-page-left {
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.register__last-page-right {
+    width: 50%;
+    min-height: 60vh;
+    /* border: 1px solid red; */
+    /* background-image: url('../../assets/last.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+.register__last-page-right img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.page23__review span{
+    margin-left: 2rem;
+}
+.page23__review span,.page23__review .MuiSvgIcon-root{
+    margin-bottom: 2rem;
+    font-size: 1.6rem !important;
+}
+.page23__review .MuiSvgIcon-root{
+    color: rgb(49, 190, 49);
+    font-size:2rem !important;
+}
+.register-last-page__checkbox .MuiFormControlLabel-root{
+    margin-top: 2rem;
+}
+.register-last-page__checkbox .MuiSvgIcon-root{
+    font-size:2.2rem !important;
+    margin-right: 1rem;
+}
+
+.last-page__review{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.last-page__review span{
+    margin-left: 2rem;
+}
+.last-page__review span,.last-page__review .MuiSvgIcon-root{
+    margin-bottom: 2rem;
+    font-size: 1.6rem !important;
+}
+.last-page__review .MuiSvgIcon-root{
+    color: rgb(49, 190, 49);
+    font-size:2rem !important;
+}
+.last-page__review-red-icon{
+    color: rgb(241, 78, 78) !important;
+}
+.page23__checkbox .MuiFormControlLabel-root{
+    margin-top: 2rem;
+}
+.page23__checkbox .MuiSvgIcon-root{
+    font-size:2.2rem !important;
+    margin-right: 1rem;
+}
+.register__last-page-heading{
+    margin-top:-5rem;
+    color: var(--color-secondary-dark);
+    font-size: 2.8rem;
+    text-align: center;
+}
+.register__last-page-para{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.last-page__privacy-text{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
